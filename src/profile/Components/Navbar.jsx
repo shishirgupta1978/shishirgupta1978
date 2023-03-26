@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
-import './navbar.css'
-import {Link} from 'react-router-dom'
+import './Navbar.css'
+import {NavLink} from 'react-router-dom'
 import {FaBars,FaTimes} from 'react-icons/fa'
 
 const Navbar = () => {
@@ -19,12 +19,12 @@ const Navbar = () => {
  window.addEventListener("scroll",changeColor);
   return (
     <div className={color ? 'header header-bg':"header"}>
-        <Link to="/"><h1>Portfolio</h1></Link>
+        <NavLink to="/"><h1><span className='logo'>SG</span> Portfolio</h1></NavLink>
       <ul className={ click ? "nav-menu active":"nav-menu"}>
-      <li><Link to="/">Home</Link></li>
-        <li><Link to="/project">Project</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+      <li><NavLink to="/profile/home">Home</NavLink></li>
+        <li><NavLink to="/profile/project">Project</NavLink></li>
+        <li><NavLink to="/profile/about">About</NavLink></li>
+        <li><NavLink to="/profile/contact">Contact</NavLink></li>
       </ul>
       <div className='hamburger' onClick={handleClick}>
         {click ? <FaTimes size={20} style={{color:"#fff"}}/> : <FaBars size={20} style={{color:"#fff"}}/> }

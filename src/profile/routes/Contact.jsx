@@ -1,6 +1,4 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
-import Footer from '../Components/Footer'
 import HeroImage2 from '../Components/HeroImage2'
 import Form from '../Components/Form'
 
@@ -8,10 +6,10 @@ import Form from '../Components/Form'
 const Contact = () => {
   return (
     <div>
-         <Navbar/>
-         <HeroImage2 heading="Contact" text="Lets have a chat"/>
+        
+         <HeroImage2 heading="Contact Us" text="Feedback and Suggestions"/>
          <Form/>
-        <Footer/>
+        
 
       
     </div>

@@ -13,7 +13,7 @@ const PricingCard = () => {
                 <p>- 3 Pages -</p>
                 <p>- Featured -</p>
                 <p>- Responsive Design -</p>
-                <Link to="/contact" className='btn'>PURCHASE NOW</Link>
+                <Link to="/profile/contact" className='btn'>PURCHASE NOW</Link>
             </div>
             <div className='card'>
                 <h3>- Premium -</h3>
@@ -23,7 +23,7 @@ const PricingCard = () => {
                 <p>- 6 Pages -</p>
                 <p>- Featured -</p>
                 <p>- Responsive Design -</p>
-                <Link to="/contact" className='btn'>PURCHASE NOW</Link>
+                <Link to="/profile/contact" className='btn'>PURCHASE NOW</Link>
             </div>
             <div className='card'>
                 <h3>- Business -</h3>
@@ -33,7 +33,7 @@ const PricingCard = () => {
                 <p>- 8 Pages -</p>
                 <p>- Featured -</p>
                 <p>- Responsive Design -</p>
-                <Link to="/contact" className='btn'>PURCHASE NOW</Link>
+                <Link to="/profile/contact" className='btn'>PURCHASE NOW</Link>
             </div>
 
         </div>
